@@ -13,7 +13,8 @@ def send_slack_message(payload, webhook):
     """
 
     return requests.post(webhook, json.dumps(payload))
+    #change
 
 webhook = "https://hooks.slack.com/services/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"
 payload = {"text": "Hello This is Nasr From Python"}
-send_slack_message(payload, webhook)
+send_slack_message(payload,ï¿½webhook)
